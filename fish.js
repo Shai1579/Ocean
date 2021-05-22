@@ -96,8 +96,8 @@ class Fish {
     }
 
     rotateFish() {
-        this.fishG.rotateZ(9.41);
-        this.eyeGroup.rotateZ(9.43);
+        this.fishG.rotateZ(Math.PI);
+        this.eyeGroup.rotateZ(Math.PI);
         if (!this.swimBack) {
             this.eyeGroup.position.y += 0.2;
         } else {
