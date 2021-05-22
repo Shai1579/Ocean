@@ -30,10 +30,10 @@ scene.add(ambientight);
 
 renderer.render(scene, camera);
 
-const waterTexture2 = new THREE.CubeTextureLoader().setPath('./')
+const waterTexture2 = new THREE.CubeTextureLoader().setPath('/')
   .load(['underwater-background-square.jpg','underwater-background-square.jpg','underwater-background-square.jpg','underwater-background-square.jpg','underwater-background-square.jpg','underwater-background-square.jpg']);
 
-const waterTexture = new THREE.TextureLoader().load('underwater-background-square.jpg');
+const waterTexture = new THREE.TextureLoader().load('/underwater-background-square.jpg');
 scene.background = waterTexture;
 
 let fishes = [];
