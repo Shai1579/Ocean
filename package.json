@@ -1,10 +1,11 @@
 {
-  "name": "portfolio",
+  "name": "aquarius",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^2.3.3"
